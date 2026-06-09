@@ -825,10 +825,12 @@ textarea {
 }
 
 .numerandus-site .eyebrow {
-  width: 190px;
+  width: fit-content;
+  max-width: 100%;
   color: #5d3500;
   background: var(--num-yellow);
   border-color: var(--num-yellow);
+  line-height: 1.15;
 }
 
 .numerandus-site .button {
